@@ -13,7 +13,6 @@ class ListItem extends React.Component {
 
 
   render() {
-    var sd = '';
     return (
       <li className="list-item">
         {this.props.users.map(function (el) {

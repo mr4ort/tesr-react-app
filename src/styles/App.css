@@ -1,21 +1,28 @@
 /* Base Application Styles */
 body {
-  color: #fff;
   background: #222;
+  color: #fff;
 }
 
 .index img {
-  margin: 40px auto;
-  border-radius: 4px;
   background: #fff;
+  border-radius: 4px;
   display: block;
+  margin: 40px auto;
 }
 
 .index .notice {
+  background: #666;
+  border: 1px solid #000;
+  border-width: 1px 0;
   margin: 20px auto;
   padding: 15px 0;
   text-align: center;
-  border: 1px solid #000;
-  border-width: 1px 0;
-  background: #666;
+}
+.header {
+  background-color: #cccccc;
+  height: 50px;
+}
+.logo {
+  font-size: 24px;
 }
